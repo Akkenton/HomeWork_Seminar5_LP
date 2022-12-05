@@ -12,7 +12,7 @@ int[] FillArrayRandomInt(int size, int lrange, int rrange)  // метод зап
     Random rand = new Random();
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = rand.Next(lrange, rrange + 1);
+        arr[i] = rand.Next(lrange, rrange);
     }
     return arr;
 }
