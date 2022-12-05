@@ -17,7 +17,7 @@ int[] FillArrayRandomInt(int size, int lrange, int rrange)  // метод зап
     return arr;
 }
 
-int ShowCountOfOddNumbersOfArray(int[] arr)
+int ShowCountOfEvenNumbersOfArray(int[] arr)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -42,7 +42,7 @@ int[] array = new int[size];
 array = FillArrayRandomInt(size, lRange, rRange);  // Заполняем массив положительными трёхзначными числами
 Console.WriteLine("[" + string.Join(",", array) + "]");
 
-System.Console.WriteLine($"Количество четных элементов в массиве: {ShowCountOfOddNumbersOfArray(array)}"); //вывод количества четных элементов в массиве
+System.Console.WriteLine($"Количество четных элементов в массиве: {ShowCountOfEvenNumbersOfArray(array)}"); //вывод количества четных элементов в массиве
 
 //  Тело программы END
 
