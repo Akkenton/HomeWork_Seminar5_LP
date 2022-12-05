@@ -19,7 +19,7 @@ int[] FillArrayRandomInt(int size, int lrange, int rrange)  // метод зап
     return arr;
 }
 
-int SumNumbersOfOddIndex(int[] arr)
+int SumNumbersOfOddIndex(int[] arr) // Метод суммирования значений элементов на нечетных индексах
 {
     int summ = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -45,6 +45,7 @@ array = FillArrayRandomInt(size, lRange, rRange); // Заполняем масс
 Console.WriteLine("[" + string.Join(",", array) + "]");
 
 System.Console.WriteLine($"Сумма элементов массива на нечетных индексах: {SumNumbersOfOddIndex(array)}"); //вывод суммы
-                                                                                                          //  Тело программы END
+
+//  Тело программы END
 
 //  ------------------  END --------------
